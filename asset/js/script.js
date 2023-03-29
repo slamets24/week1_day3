@@ -18,10 +18,10 @@ if(name == ""){
     return alert("Message Harus Diisi")
 }
 
-// const destination = "slametseptiawan6@gmail.com"
-// let a = document.createElement("a")
-// a.href = `mailto:${destination}?subject=${subject}&body= Hallo nama saya ${name} , saya ingin ${message}, bisakah anda menghubungi saya di ${phone}`
-// a.click()
+const destination = "slametseptiawan6@gmail.com"
+let a = document.createElement("a")
+a.href = `mailto:${destination}?subject=${subject}&body= Hallo nama saya ${name} , saya ingin ${message}, bisakah anda menghubungi saya di ${phone}`
+a.click()
 
 let data = {
     nama: name,
